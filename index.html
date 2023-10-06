@@ -12,6 +12,7 @@
   <style>
      @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
         body {
+          
             font-size: 15px;
             font-family: 'Outfit', sans-serif;
             background-color: hsl(212, 45%, 89%);
@@ -24,15 +25,18 @@
             font-weight: 400;
             color: hsl(220, 15%, 55%);
         }
-        section {
-            margin: auto;
+        section {  
             width: 280px;
             background-color: white;
             text-align: center;
         }
-       main {
-        margin-top: 300px;
-       }
+        main {
+          margin:auto;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
        img {
         display: block;
         margin: auto;
@@ -50,11 +54,12 @@
         <h1>Improve your front-end skills by building projects</h1>
         <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level.</p>
    </section>
-</main>
-  
-  <div class="attribution">
+   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://github.com/GalderioJaguara">Jaguara</a>.
   </div>
+</main>
+  
+  
 </body>
 </html>
